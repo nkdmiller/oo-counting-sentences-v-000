@@ -20,6 +20,7 @@ class String
     array = []
     array = self.split(/[!.?]/)
     binding.pry
+    array.reject! { |x| x.empty? }
     sentence_num = array.length
     sentence_num
   end
