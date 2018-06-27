@@ -18,7 +18,7 @@ class String
     sentence_num = 0
 
     array = []
-    array = self.split(/.!?/)
+    array = self.split(/\.\!\?/)
     binding.pry
     sentence_num = array.length
     sentence_num
